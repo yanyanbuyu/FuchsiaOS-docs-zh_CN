@@ -4,15 +4,18 @@
 <!-- SET the `rfcid` VAR ABOVE. DO NOT EDIT ANYTHING ELSE ABOVE THIS LINE. -->
 
 ## Summary
-
+#在 Fuchsia 中，使用特定符号来表示字节的倍数。 通过消除猜测“MB”值的需要来提高清晰度。
 In Fuchsia, specific notation is used to denote multiples of bytes. This
 improves clarity by eliminating the need to guess the value of "MB".
 
+#
 The [IEC](https://en.wikipedia.org/wiki/Kibibyte) notation will be used for
 multiples of bytes (e.g. RAM, disk, file sizes).
 
+#
 - When denoting groups of bytes, all Fuchsia developer documentation and
   tools will present multiples of bytes in 1024 units (i.e. powers of 2).
+  
 - The labels kibibyte, mebibyte, gibibyte are used for 1024, 1024^2, and 1024^3
   respectively.
 - When describing bytes in abbreviated form, always use the "i" notation: KiB,
