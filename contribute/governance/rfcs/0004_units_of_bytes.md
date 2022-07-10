@@ -12,18 +12,24 @@ improves clarity by eliminating the need to guess the value of "MB".
 The [IEC](https://en.wikipedia.org/wiki/Kibibyte) notation will be used for
 multiples of bytes (e.g. RAM, disk, file sizes).
 
-#
+#在表示字节组时，所有 Fuchsia 开发人员文档和工具都将以 1024 单位（即 2 的幂）表示字节的倍数。
 - When denoting groups of bytes, all Fuchsia developer documentation and
   tools will present multiples of bytes in 1024 units (i.e. powers of 2).
   
+#标签 kibibyte、mebibyte、gibibyte 分别用于表示 1024、1024^2 和 1024^3。
 - The labels kibibyte, mebibyte, gibibyte are used for 1024, 1024^2, and 1024^3
   respectively.
+  
+#在使用缩写形式描述字节时，始终使用“i”符号，例如：KiB、MiB、GiB 等。第一个和最后一个字母大写，中间的“i”始终小写。
 - When describing bytes in abbreviated form, always use the "i" notation: KiB,
   MiB, GiB, etc. The first and last letters are capitalized and the middle "i"
   is always lowercase.
+  
+#缩写 KB、MB、GB（无论字母大小写）不会被用于面向开发人员的材料。也不会使用千字节、兆字节、千兆字节。
 - Abbreviations KB, MB, GB (regardless of letter case) will not be used in
   developer facing materials. Nor will kilobyte, megabyte, gigabyte be used.
 
+#
 These guidelines are for developer facing materials. This RFC does not attempt
 to provide guidelines for user facing (marketing/sales) notation.
 
