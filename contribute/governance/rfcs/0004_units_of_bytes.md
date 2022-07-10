@@ -25,7 +25,7 @@ multiples of bytes (e.g. RAM, disk, file sizes).
   MiB, GiB, etc. The first and last letters are capitalized and the middle "i"
   is always lowercase.
   
-#缩写 KB、MB、GB（无论字母大小写）不会被用于面向开发人员的材料。也不会使用千字节、兆字节、千兆字节。
+#缩写字母 KB、MB、GB（无论字母大小写）不会被用于面向开发人员的材料。也不会使用千字节、兆字节、千兆字节。
 - Abbreviations KB, MB, GB (regardless of letter case) will not be used in
   developer facing materials. Nor will kilobyte, megabyte, gigabyte be used.
 
